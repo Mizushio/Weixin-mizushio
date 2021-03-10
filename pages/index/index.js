@@ -4,6 +4,7 @@ const app = getApp()
 
 Page({
   data: {
+    time: (new Date()).toString(),
     motto: 'Mizushio Nano！',
     userInfo: {},
     hasUserInfo: false,
