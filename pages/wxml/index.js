@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    app: getApp(),//app.js里的globalData
     time: (new Date()).toString()
   },
 

@@ -51,5 +51,15 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+
+  btn1:function(options){
+    if(this.data.motto=="MIZUSHIO Nano"){    this.setData({
+      motto:"Mizushio nano"
+    })}
+    else{    this.setData({
+      motto:"MIZUSHIO Nano"
+    })}
+    console.log("change ok")
   }
 })

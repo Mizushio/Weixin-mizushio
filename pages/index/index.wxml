@@ -10,5 +10,7 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <button bindtap="btn1">change</button>
   <text>当前时间：{{time}}</text>
+  
 </view>

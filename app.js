@@ -1,5 +1,8 @@
 // app.js
 App({
+  /**
+   * 开始时初始化一次
+   */
   onLaunch() {
     // 展示本地存储能力
     const logs = wx.getStorageSync('logs') || []
@@ -33,7 +36,38 @@ App({
       }
     })
   },
+  /**
+   * 后台到前台就触发
+   * @param  options 
+   */
+  onShow:function(options){
+
+  },
+  /**
+   * 前台到后台触发
+   * @param  options 
+   */
+  onHide:function(options){
+
+  },
+  /**
+   * 错误发生触发
+   * @param options 
+   */
+  onError:function(options){
+
+  },
+  /**
+   * 需要打开的页面不存在
+   * @param  options 
+   */
+  onPageNotFound:function(options){
+wx.switchTab({
+  url: 'pages/logs/logs',
+})
+  },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    data1: "全局数据"
   }
 })
