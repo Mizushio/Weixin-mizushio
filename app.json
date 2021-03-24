@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/wxml/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/wzq/wzq"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -29,6 +30,12 @@
       {
         "pagePath": "pages/logs/logs",
         "text": "设置",
+        "iconPath": "./pages/image/2.png",
+        "selectedIconPath": "./pages/image/2.png"
+      },
+      {
+        "pagePath": "pages/wzq/wzq",
+        "text": "五子棋",
         "iconPath": "./pages/image/2.png",
         "selectedIconPath": "./pages/image/2.png"
       }
