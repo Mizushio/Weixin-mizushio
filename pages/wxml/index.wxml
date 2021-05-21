@@ -3,5 +3,13 @@
   <text>欢迎~ 这里是水汐哒！！（fw水汐开发ing）</text>
 </view>
 <view><text>当前时间：{{time}}{{app.globalData.data1}}</text></view>
+<view><text>jjjj</text>
+<button  bindtap='getbaidu'>get</button>
+<button  bindtap='postto'>post</button>
+{{getdata}}{{postdata}}
+</view>
+
+
+
 <!-- <button type="primary" bindtap='logBtn' >跳转到首页</button> -->
 <!-- <navigator url="../index/index" open-type='switchTab'>跳转到新页面</navigator>  -->
